@@ -26,9 +26,19 @@ body {
     border-radius: 15px;
 }
 
+img{
+    width: 4rem;
+   margin: 0 42% ;
+   margin-top: -3rem;
+   margin-bottom:0;
+}
+
 @media (min-width: 600px) {
     .container {
         max-width: 28.125rem;
+    }
+    img{
+        margin-left: 10.3rem;
     }
 }
 
@@ -126,3 +136,18 @@ section:last-child .lbl{
     color: #4c4af4;
     font-weight: 400;
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: #cdccfd;
+    text-align: center;
+  }
+
+  .contact a{
+    text-decoration: none;
+    color: rgb(63, 38, 114);
+  }
