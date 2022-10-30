@@ -9,9 +9,9 @@
 }
 
 body {
-    background-color: #f4f4f4;
+    background-color: #b61e1e;
     height: 100%;
-    background-color: #6f6df4;
+    background-color: #5b5b5e;
 }
 
 .container {
@@ -22,7 +22,7 @@ body {
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 30px 50px rgba(24, 23, 23, 0.1);
     border-radius: 15px;
 }
 
@@ -137,17 +137,3 @@ section:last-child .lbl{
     font-weight: 400;
 }
 
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: transparent;
-    color: #cdccfd;
-    text-align: center;
-  }
-
-  .contact a{
-    text-decoration: none;
-    color: rgb(63, 38, 114);
-  }
